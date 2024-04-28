@@ -1,0 +1,148 @@
+body {
+    background: linear-gradient(130deg, rgb(68, 108, 141), #a15757, #9b0808);
+    display: flex;
+    justify-content: center;
+}
+
+#contenido1 {
+    background-color: rgba(27, 27, 27, 0.6);
+    width: 90vw;
+    font-family: sans-serif;
+}
+#contenido {
+    font-family: sans-serif;
+    margin-top: 10em;
+    width: 90vw;
+    background-color: rgb(32, 32, 32);
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* header */
+
+header {
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    width: 100%;
+    z-index: 1;
+}
+
+#logo {
+    margin: 0.5em;
+    border-radius: 100%;
+    width: 5em;
+    height: 5em;
+}
+
+.sobreMiPag {
+    margin: auto;
+    transition: 0.5s;
+}
+
+.sobreMiPag:hover {
+    scale: 1.05;
+}
+
+#gitHub {
+    
+    transition: 0.5s;
+}
+
+#gitHub:hover {
+    scale: 1.05;
+}
+
+
+/* main */
+
+#páginas {
+    margin: 2em 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.nombrePag {
+    color: rgb(24, 24, 24);
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.pag {
+    width: 20em;
+    margin-bottom: 1em;
+    text-align: center;
+    background-color: #e6e6e6;
+    border-radius: 1em;
+    padding: 1.5em;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.pag:hover {
+    scale: 1.05;    
+    box-shadow: 0px 0px 2.5em #000000;
+    background: linear-gradient(130deg, #dd3434,  #7957a1, #446c8d);
+    margin: 1em;
+}
+
+.img1 {
+    width: 15em;
+    height: 15em;
+}
+
+.img2 {
+    margin-top: 0.9em;
+    width: 14.2em;
+    height: 13em;
+}
+
+.img3 {
+    margin-top: 0.6em;
+    margin-left: 0.7em ;
+    margin-right: 0.7em ;
+    width: 13em;
+    height: 14em;
+}
+
+
+/* footer */
+
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin-top: 3em;
+    background-color: rgba(27, 27, 27, 0.7);
+    min-height: 2em;
+}
+
+
+#logoFooter {
+    border-radius: 100%;
+    margin-top: 1em;
+    width: 6em;
+    margin-bottom: 0.4em;
+    transition: 0.5s;
+}
+
+#logoFooter:hover {
+    scale: 1.1;
+    box-shadow: 0 0 1em rgb(0, 0, 0);
+}
+
+#logoGH {
+    border-radius: 100%;
+    margin-top: 1em;
+    margin-bottom: 0.4em;
+    width: 6em;
+    transition: 0.5s;
+}
+    
+#logoGH:hover {
+    scale: 1.1;
+    box-shadow: 0 0 1em rgb(0, 0, 0);
+}

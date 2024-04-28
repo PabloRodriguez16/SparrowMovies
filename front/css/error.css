@@ -1,0 +1,9 @@
+#oops {
+    cursor: default;
+    transition: 0.1s;
+}
+
+#oops:hover {
+    scale: 1.04;
+    transform: rotate(6deg);
+}

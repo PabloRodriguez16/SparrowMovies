@@ -1,0 +1,124 @@
+/* body */
+
+#body{
+    background-image: url('../src/fondoMovies.png');
+    background-size: cover; 
+    background-position: center;
+}
+
+/* header */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 1;
+}
+
+#logo {
+    margin: 0.5em;
+    border-radius: 100%;
+    width: 5em;
+    height: 5em;
+}
+
+#buscador {
+    padding-left: 1em;
+    color: white;
+    margin-top: 1.9em;
+    width: 18em;
+    height: 3em;
+    border-radius: 1em;
+    background-color: rgb(34, 34, 34);
+}
+
+#Webs {
+    color: white;
+    font-size: 1.5em;
+    transition: 0.5s;
+    margin: 0px 1em 0px 1em;
+}
+
+#Webs:hover {
+    color: rgb(241, 58, 58);
+    scale: 1.1;
+}
+
+#sobrePag {
+    color: white;
+    font-size: 1.5em;
+    transition: 0.5s;
+    margin: 0px 1em 0px 1em;
+}
+
+#sobrePag:hover {
+    color: rgb(241, 58, 58);
+    scale: 1.1;
+}
+/* main */
+
+#tituloAgregarPelis {
+    padding: 1em;
+    color: white;
+    text-align: center;
+    background-color: rgb(36, 36, 41);
+    width: 25em;
+    min-height: 8em;
+    margin: 5.65em auto 0px auto;
+}
+
+#form {
+    background-color: rgb(87, 87, 94);
+    min-height: 30em;
+    width: 25em;
+    margin: 0 auto;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    margin-bottom: 3em;
+    padding: 1em;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+#form > div {
+    margin: 2em auto 1em auto; 
+    display: flex;
+    justify-content: center;
+}
+
+#form input[type="checkbox"] {
+    margin-right: 0.5em; 
+}
+
+
+#movieTitle {
+    margin: 2em auto 1em auto;
+    width: 23em;
+}
+
+#movieYear {
+    margin: 2em auto 1em auto;
+    width: 23em;
+}
+
+#movieDirector {
+    margin: 2em auto 1em auto;
+    width: 23em;
+}
+
+#movieDuration {
+    margin: 2em auto 1em auto;
+    width: 23em;
+}
+
+#movieRate {
+    margin: 2em auto 1em auto;
+    width: 23em;
+}
+
+#moviePoster {
+    margin: 2em auto 1em auto;
+    width: 23em;
+}
