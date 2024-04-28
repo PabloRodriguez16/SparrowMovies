@@ -31,7 +31,7 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
 RECOMENDACIÓN: utilizar 2 terminales divididas, una en back y otra en front...
 
 3. En la sección del back encontraras un archivo llamado `.env.example`. Este tiene que ser renombrado como simplemente .env
-4. En este ultimo tendrás una variable de entorno la cual es la conección con la BDD de mongoDB. En este encontrarás secciones `< password >` las cuales deben ser
+4. En este ultimo tendrás una variable de entorno la cual es la conección con la BDD de mongoDB. En este encontrarás secciones como `< password >` las cuales deben ser
 llenadas con sus respectivos datos. 
 5. A continuación dejaré una lista de películas las cuales pueden agregar directamente desde mongoDB o desde la propia sección de agregar películas mas adelante.
 
