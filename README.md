@@ -69,9 +69,9 @@ llenadas con sus respectivos datos.
   }
 ]
 
-6. Inicia el servidor backend usando `npm start`.
+6. Inicia el servidor backend usando `npm start` en el back.
 
-7. Abre la página utilizando `npm start` para que utilice live-server.
+7. Abre la página utilizando `npm start` en el front para que utilice live-server.
 
 ## Contacto
 
