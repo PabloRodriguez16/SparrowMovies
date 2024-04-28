@@ -26,12 +26,14 @@ Este proyecto es una aplicación web que simula una plataforma de streaming de p
 Para ejecutar este proyecto localmente, sigue estos pasos:
 
 1. Clona este repositorio en tu máquina local.
-2. Instala las dependencias generales ejecutando `npm install`.
-3. Instala las dependencias necesarias ejecutando `npm install` en el directorio de back y en de front respectivamente.
-4. En la sección del back encontraras un archivo llamado `.env.example`. Este tiene que ser renombrado como simplemente .env
-5. En este ultimo tendrás una variable de entorno la cual es la conección con la BDD de mongoDB. En este encontrarás secciones `< password >` las cuales deben ser
+2. Instala las dependencias necesarias ejecutando `npm install` en el directorio de back y en de front respectivamente.
+
+RECOMENDACIÓN: utilizar 2 terminales divididas, una en back y otra en front...
+
+3. En la sección del back encontraras un archivo llamado `.env.example`. Este tiene que ser renombrado como simplemente .env
+4. En este ultimo tendrás una variable de entorno la cual es la conección con la BDD de mongoDB. En este encontrarás secciones `< password >` las cuales deben ser
 llenadas con sus respectivos datos. 
-6. A continuación dejaré una lista de películas las cuales pueden agregar directamente desde mongoDB o desde la propia sección de agregar películas mas adelante.
+5. A continuación dejaré una lista de películas las cuales pueden agregar directamente desde mongoDB o desde la propia sección de agregar películas mas adelante.
 
 # Películas:
 
@@ -67,9 +69,9 @@ llenadas con sus respectivos datos.
   }
 ]
 
-7. Inicia el servidor backend usando `npm start`.
+6. Inicia el servidor backend usando `npm start`.
 
-8. Abre la página utilizando `npm start` para que utilice live-server.
+7. Abre la página utilizando `npm start` para que utilice live-server.
 
 ## Contacto
 
